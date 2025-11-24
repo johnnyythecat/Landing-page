@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.8s ease-out;
+}
+
+/* Smooth fade-in with gentle movement for headline */
+@keyframes smooth-fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-smooth-fade-in {
+  animation: smooth-fade-in 1.2s ease-out;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  /* Melhor espaçamento em mobile */
+  section {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Otimização de performance */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Melhor acessibilidade */
+button:focus,
+a:focus {
+  outline: 2px solid #f59e0b;
+  outline-offset: 2px;
+}
+
+/* Custom pulse animation for price */
+@keyframes custom-pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.animate-pulse {
+  animation: custom-pulse 2s infinite;
+}
+
+/* Reduced spacing between sections */
+section {
+  margin-bottom: -0.5rem;
+}
+
+@media (min-width: 768px) {
+  section {
+    margin-bottom: -1rem;
+  }
+}
+
+/* Fire animation for calories */
+@keyframes fire-flicker {
+  0%, 100% {
+    transform: scale(1) rotate(-1deg);
+    opacity: 1;
+  }
+  25% {
+    transform: scale(1.1) rotate(1deg);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(0.95) rotate(-0.5deg);
+    opacity: 1;
+  }
+  75% {
+    transform: scale(1.05) rotate(0.5deg);
+    opacity: 0.95;
+  }
+}
+
+.animate-fire {
+  animation: fire-flicker 1.5s ease-in-out infinite;
+}
+
+/* Grill smoke animation */
+@keyframes smoke-rise {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateY(-10px) scale(1.1);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(-20px) scale(1.2);
+    opacity: 0;
+  }
+}
+
+.animate-smoke {
+  animation: smoke-rise 2s ease-out infinite;
+}
+
+/* Sparkles animation */
+@keyframes sparkle {
+  0%, 100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+  25% {
+    transform: scale(1.2) rotate(90deg);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(0.8) rotate(180deg);
+    opacity: 1;
+  }
+  75% {
+    transform: scale(1.1) rotate(270deg);
+    opacity: 0.9;
+  }
+}
+
+.animate-sparkle {
+  animation: sparkle 2s ease-in-out infinite;
+}
+
+/* Float animation for image */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Shadow 3xl */
+.shadow-3xl {
+  box-shadow: 0 35px 60px -12px rgba(0, 0, 0, 0.25);
+}
