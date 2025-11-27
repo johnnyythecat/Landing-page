@@ -4,20 +4,20 @@ import { Gift } from 'lucide-react';
 const BonusSection: React.FC = () => {
   const bonuses = [
     {
-      title: "BONÚS 1 — Guia Completo: Dicas de Cozimento Perfeito para Massas",
-      description: "Aprenda todos os segredos para massas al dente e molhos perfeitos.",
+      title: "BONÚS 1 — Segredos do Cozimento Perfeito",
+      description: "Para nunca mais errar o ponto da massa e cozinhar como profissional.",
       originalPrice: "R$27",
       image: "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=300"
     },
     {
-      title: "BONÚS 2 — Cardápio Semanal de Massas Italianas",
-      description: "Planejamento completo para uma semana de massas rápidas e práticas.",
+      title: "BONÚS 2 — Guia de Molhos Coringas",
+      description: "Bases que servem para criar dezenas de pratos novos com ingredientes simples.",
       originalPrice: "R$37",
       image: "https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=300"
     },
     {
-      title: "BONÚS 3 — Guia de Molhos Clássicos Italianos & Combinações Regionais",
-      description: "Receitas autênticas de molhos tradicionais de cada região da Itália.",
+      title: "BONÚS 3 — Dicas de Substituição Inteligente",
+      description: "O manual para trocar ingredientes caros por baratos sem ninguém notar.",
       originalPrice: "R$29",
       image: "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=300"
     }
@@ -29,7 +29,7 @@ const BonusSection: React.FC = () => {
         <h2 className="text-lg md:text-2xl font-bold text-center mb-6 text-red-600 px-2">
           <span className="inline-flex items-center space-x-2">
             <Gift className="text-red-600 animate-bounce" size={24} />
-            <span>Bônus que você leva hoje:</span>
+            <span>Bônus Inclusos (Sem Custo Extra):</span>
           </span>
         </h2>
 
@@ -62,7 +62,7 @@ const BonusSection: React.FC = () => {
           ))}
           <div className="text-center mt-4">
             <p className="text-gray-800 font-bold text-lg md:text-xl px-4 py-2 bg-white rounded-lg border-2 border-red-200 shadow-sm inline-block">
-              Você leva tudo isso TOTALMENTE GRÁTIS se comprar hoje!
+              Ao garantir seu ebook hoje, você leva tudo isso SEM CUSTO EXTRA!
             </p>
           </div>
         </div>

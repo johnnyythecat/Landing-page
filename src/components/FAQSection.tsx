@@ -12,27 +12,27 @@ const FAQSection: React.FC = () => {
   const faqItems: FAQItem[] = [
     {
       question: "Pode ser impresso?",
-      answer: "Sim! O livro digital pode ser impresso quantas vezes quiser. Você pode imprimir as receitas de massas que mais gosta ou o livro completo para ter sempre à mão na cozinha."
+      answer: "Sim! O livro digital pode ser impresso quantas vezes quiser. Você pode imprimir as receitas que mais gosta ou o livro completo para ter sempre à mão na cozinha."
     },
     {
       question: "Como vou receber o acesso?",
-      answer: "Você receberá o acesso completo por e-mail imediatamente após a compra."
+      answer: "Você receberá o acesso completo por e-mail imediatamente após a compra. Basta clicar no link e começar a usar!"
     },
     {
-      question: "Não sei cozinhar nada. Isso é pra mim?",
-      answer: "Com certeza! É um guia completo passo a passo com receitas de massas italianas fáceis e deliciosas — até para iniciantes completos! Todas as receitas são simples de seguir."
+      question: "Funciona para iniciantes?",
+      answer: "Com certeza! É um guia completo passo a passo com receitas fáceis e deliciosas — até para quem nunca cozinhou! Todas as receitas são simples de seguir com ingredientes acessíveis."
     },
     {
-      question: "Preciso de ingredientes especiais?",
-      answer: "Não! Todas as receitas de massas usam ingredientes simples que você já tem em casa ou pode encontrar facilmente em qualquer supermercado."
+      question: "Preciso de ingredientes caros?",
+      answer: "Não! Essa é a beleza do e-book. Todas as receitas usam ingredientes simples que você tem em casa ou encontra facilmente no mercado. Temos dicas de substituição inteligente também!"
     },
     {
-      question: "Eu tenho garantia?",
-      answer: "Sim! Você tem 7 dias de garantia. Se não ficar satisfeito, devolvemos 100% do seu dinheiro sem perguntas."
+      question: "Tenho garantia?",
+      answer: "Sim! Teste as receitas por 7 dias. Se você não sentir que economizou e comeu melhor, devolvemos 100% do seu dinheiro. Sem perguntas, sem burocracia."
     },
     {
-      question: "O livro é físico?",
-      answer: "Não, é um livro digital que você pode acessar de onde quiser pelo seu celular, tablet ou computador. Mas se preferir, também pode imprimir as receitas de massas em casa!"
+      question: "Quais são os bônus?",
+      answer: "Ao comprar hoje, você recebe: Segredos do Cozimento Perfeito, Guia de Molhos Coringas, e Dicas de Substituição Inteligente - tudo SEM CUSTO EXTRA!"
     }
   ];
 

@@ -2,18 +2,18 @@ import React from 'react';
 
 const BenefitsSection: React.FC = () => {
   const benefits = [
-    "+105 receitas de massas italianas autênticas e testadas",
-    "Ingredientes simples e fáceis de encontrar",
-    "Do norte ao sul da Itália: receitas regionais e clássicos imortais",
-    "Massas cremosas, leves, vegetarianas e com proteínas para todas as ocasiões",
-    "Acesse as receitas online ou imprima. Você escolhe!"
+    "+105 receitas testadas que funcionam com o que você tem em casa",
+    "Economia real: aprenda a substituir ingredientes caros por opções baratas sem perder o sabor",
+    "Tabela de preços em todas as receitas: saiba exatamente quanto vai custar antes de cozinhar",
+    "Do básico ao especial: jantares rápidos para a semana e pratos para impressionar no domingo",
+    "Acesse no celular ou imprima: tenha seu guia de economia e sabor sempre à mão"
   ];
 
   return (
     <section className="bg-gray-50 py-4 md:py-6">
       <div className="container mx-auto px-4">
         <h2 className="text-lg md:text-2xl font-bold text-center mb-4 animate-fade-in px-2 text-red-600">
-          Vantagens do Livro Digital:
+          Por que escolher este e-book:
         </h2>
         
         <div className="max-w-2xl mx-auto px-2">

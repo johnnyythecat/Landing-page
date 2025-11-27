@@ -13,26 +13,26 @@ interface Testimonial {
 const TestimonialsSection: React.FC = () => {
   const testimonials: Testimonial[] = [
     {
-      name: "Ana Paula Rodrigues",
-      avatar: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=50&h=50&fit=crop&crop=face",
-      time: "3h",
-      content: "Essas receitas de massas são PERFEITAS! Já fiz a Carbonara, Cacio e Pepe e Amatriciana. Ficaram exatamente como na Itália. Meu marido disse que abro um restaurante italiano!",
-      likes: 38,
+      name: "Carlos Silva",
+      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=50&h=50&fit=crop&crop=face",
+      time: "2h",
+      content: "Que descoberta! Consegui economizar muito na alimentação e ainda cozinhar como um chef italiano. A tabela de preços de cada receita é excelente! Agora faço massas todos os dias.",
+      likes: 45,
       verified: true
     },
     {
-      name: "Mariana Costa",
+      name: "Fernanda Santos",
       avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=50&h=50&fit=crop&crop=face",
-      time: "5h",
-      content: "Esse livro transformou minha cozinha! As dicas de massa al dente são ouro puro. Faço jantar italiano toda semana agora e economizo muito!",
-      likes: 42
+      time: "6h",
+      content: "A dica de substituição inteligente salvou meu orçamento! Virei trocando ingredientes caros por opções baratas e o resultado é o mesmo. Minha família elogiou muito!",
+      likes: 52
     },
     {
-      name: "Juliana Almeida",
-      avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=50&h=50&fit=crop&crop=face",
-      time: "1d",
-      content: "Nunca imaginei que conseguiria fazer massas italianas tão autênticas em casa! Passo a passo simples e ingredientes fáceis de encontrar. Recomendo demais!",
-      likes: 51,
+      name: "Michele Costa",
+      avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=50&h=50&fit=crop&crop=face",
+      time: "12h",
+      content: "Não acredito que as receitas one-pot são tão fáceis e sábias! Menos louça a lavar e comida incrível. Virei fã. Recomendo para todo mundo!",
+      likes: 58,
       verified: true
     }
   ];

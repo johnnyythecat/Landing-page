@@ -3,22 +3,24 @@ import { Zap, Gift } from 'lucide-react';
 
 const OffersSection: React.FC = () => {
   const basicFeatures = [
-    "+101 Receitas de Massas Italianas Fáceis e Práticas",
+    "Ebook Completo +101 Receitas de Massas",
     "Acesso Vitalício",
+    "Todos os Bônus Inclusos",
     "Entrega Imediata por E-mail"
   ];
 
   const premiumFeatures = [
-    "+101 Receitas de Massas Italianas (vegetarianas, carnes, frutos do mar e gratinadas)",
-    "Guia Completo: Dicas de Cozimento Perfeito para Massas",
-    "Cardápio Semanal de Massas Italianas",
-    "Guia de Molhos Clássicos Italianos & Combinações Regionais"
+    "Ebook Completo +101 Receitas de Massas",
+    "Tabela de preços em cada receita",
+    "Receitas adaptadas para o Brasil",
+    "Receitas One-Pot e molhos coringas",
+    "Dicas de substituição inteligente"
   ];
 
   const premiumBonuses = [
-    "Plano de refeições com Massas de 30 dias",
-    "Guia de Conservação de Massas",
-    "Substituições de Ingredientes"
+    "Segredos do Cozimento Perfeito",
+    "Guia de Molhos Coringas",
+    "Dicas de Substituição Inteligente"
   ];
 
   return (
@@ -36,7 +38,7 @@ const OffersSection: React.FC = () => {
                 </div>
               </div>
               <h3 className="text-lg font-bold mb-3 text-red-600 leading-tight">
-                +101 Receitas de Massas Italianas
+                Oferta Especial de Lançamento
               </h3>
             </div>
 
@@ -51,12 +53,13 @@ const OffersSection: React.FC = () => {
 
             <div className="text-center">
               <div className="text-sm text-red-600 line-through mb-2">De R$127 por apenas</div>
-              <div className="text-5xl font-black text-green-600 mb-3 animate-pulse">R$19</div>
+              <div className="text-5xl font-black text-green-600 mb-1 animate-pulse">R$19</div>
+              <p className="text-xs text-gray-600 mb-3 italic">(Menos que um lanche na padaria!)</p>
               <a
                 href="#"
                 className="block w-full bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-6 rounded-full text-sm shadow-lg transform hover:scale-105 transition-all duration-300 hover:shadow-xl text-center animate-pulse"
               >
-                QUERO A OFERTA BÁSICA
+                QUERO MEU E-BOOK AGORA POR R$19
               </a>
             </div>
           </div>
@@ -78,7 +81,7 @@ const OffersSection: React.FC = () => {
                 </div>
               </div>
               <h3 className="text-xl font-bold mb-3 text-red-600 leading-tight">
-                +101 Receitas Completas
+                Oferta Especial de Lançamento
               </h3>
             </div>
 
@@ -109,13 +112,13 @@ const OffersSection: React.FC = () => {
             </div>
 
             <div className="text-center">
-              <div className="text-sm text-red-600 line-through mb-1">De R$227 por apenas</div>
-              <div className="text-6xl font-black text-green-600 mb-3 animate-pulse">R$29</div>
+              <div className="text-sm text-red-600 line-through mb-1">De R$127 por apenas</div>
+              <div className="text-6xl font-black text-green-600 mb-3 animate-pulse">R$19</div>
               <a
                 href="#"
                 className="block w-full bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-6 rounded-full text-sm shadow-lg transform hover:scale-105 transition-all duration-300 hover:shadow-xl text-center animate-pulse"
               >
-                QUERO A SUPER OFERTA
+                QUERO MEU E-BOOK AGORA POR R$19
               </a>
             </div>
           </div>

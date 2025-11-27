@@ -4,11 +4,12 @@ import { Check } from 'lucide-react';
 const WhyDifferentSection: React.FC = () => {
   const features = [
     "Mais de 101 receitas autênticas direto das regiões da Itália",
-    "Receitas tradicionais e regionais pouco conhecidas",
-    "Tempo médio de preparo: 10 a 25 minutos",
-    "Ingredientes simples que você encontra em qualquer supermercado",
+    "Tabela de preços em cada receita para você controlar seu orçamento",
+    "Tempo médio de preparo: 10 a 25 minutos — perfeito para a rotina",
+    "Ingredientes acessíveis que você encontra em qualquer mercado",
     "Formato prático: acesse online ou imprima",
-    "Dicas profissionais para massa al dente, molhos cremosos e emulsões perfeitas"
+    "Dicas profissionais para massa al dente, molhos cremosos e emulsões perfeitas",
+    "Adaptado para o Brasil: substituições inteligentes de ingredientes caros"
   ];
 
   const scrollToOffers = () => {

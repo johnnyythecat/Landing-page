@@ -14,86 +14,86 @@ const RecipesShowcase: React.FC = () => {
     {
       title: "Espaguete Aglio, Olio e Peperoncino",
       image: "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "Clássico romano simples e aromático",
+      description: "Alho, azeite e pimenta perfeitos",
       time: "12 min",
-      ingredients: "5 Ingred."
+      ingredients: "4 Ingred."
     },
     {
-      title: "Spaghetti alla Carbonara Clássica",
+      title: "Spaghetti alla Carbonara",
       image: "https://images.pexels.com/photos/4518844/pexels-photo-4518844.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "A receita autêntica com guanciale e pecorino",
+      description: "Cremosa sem usar creme de leite",
       time: "20 min",
-      ingredients: "6 Ingred."
+      ingredients: "5 Ingred."
     },
     {
       title: "Bucatini Cacio e Pepe",
       image: "https://images.pexels.com/photos/5175539/pexels-photo-5175539.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "Cremosa e elegante, apenas 3 ingredientes",
+      description: "Queijo derretido com pimenta moída",
       time: "15 min",
       ingredients: "3 Ingred."
     },
     {
       title: "Rigatoni all'Amatriciana",
       image: "https://images.pexels.com/photos/2456435/pexels-photo-2456435.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "Molho vermelho com pancetta crocante",
+      description: "Tomate rico com bacon crocante",
       time: "25 min",
-      ingredients: "7 Ingred."
+      ingredients: "6 Ingred."
     },
     {
       title: "Linguine alla Puttanesca",
       image: "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "Intensa com azeitonas e alcaparras",
+      description: "Intenso sabor de azeitona e alcaparra",
       time: "18 min",
-      ingredients: "8 Ingred."
+      ingredients: "7 Ingred."
     },
     {
       title: "Fettuccine Alfredo",
       image: "https://images.pexels.com/photos/1460872/pexels-photo-1460872.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "Cremosa e indulgente com manteiga e parmesão",
+      description: "Manteiga e queijo derretendo na boca",
       time: "14 min",
       ingredients: "4 Ingred."
     },
     {
-      title: "Penne all'Arrabbiata",
+      title: "Massas com Sardinha e Atum",
       image: "https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "Picante e saborosa da região do Lazio",
-      time: "16 min",
+      description: "Enlatados viram banquete mediterrâneo",
+      time: "15 min",
       ingredients: "6 Ingred."
     },
     {
-      title: "Linguine alle Vongole",
-      image: "https://images.pexels.com/photos/2456435/pexels-photo-2456435.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "Frutos do mar frescos e delicados",
-      time: "20 min",
+      title: "Tagliatelle Burro e Salvia",
+      image: "https://images.pexels.com/photos/3915857/pexels-photo-3915857.jpeg?auto=compress&cs=tinysrgb&w=600",
+      description: "Manteiga de sálvia dourada e aromática",
+      time: "12 min",
+      ingredients: "4 Ingred."
+    },
+    {
+      title: "Trofie al Pesto Genovese",
+      image: "https://images.pexels.com/photos/821365/pexels-photo-821365.jpeg?auto=compress&cs=tinysrgb&w=600",
+      description: "Manjericão fresco em molho verde",
+      time: "18 min",
       ingredients: "7 Ingred."
     },
     {
-      title: "Tagliatelle al Ragù Bolognese",
-      image: "https://images.pexels.com/photos/4253312/pexels-photo-4253312.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "O autêntico molho à bolonhesa",
-      time: "45 min",
-      ingredients: "10 Ingred."
-    },
-    {
-      title: "Penne Quattro Formaggi",
-      image: "https://images.pexels.com/photos/7218637/pexels-photo-7218637.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "Cremosa com quatro queijos italianos",
-      time: "15 min",
+      title: "Penne all'Arrabbiata",
+      image: "https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=600",
+      description: "Molho de tomate picante e viciante",
+      time: "18 min",
       ingredients: "5 Ingred."
     },
     {
-      title: "Spaghetti al Pesto Genovese",
-      image: "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "Tradicional da Ligúria com manjericão fresco",
-      time: "12 min",
-      ingredients: "7 Ingred."
+      title: "Massas One-Pot",
+      image: "https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg?auto=compress&cs=tinysrgb&w=600",
+      description: "Cozinha massa e molho na mesma panela",
+      time: "20 min",
+      ingredients: "8 Ingred."
     },
     {
-      title: "Lasagna alla Bolognese",
-      image: "https://images.pexels.com/photos/5718865/pexels-photo-5718865.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "Camadas de massa, molho e queijo",
-      time: "60 min",
-      ingredients: "12 Ingred."
+      title: "Molhos de Tomate Caseiros",
+      image: "https://images.pexels.com/photos/4253312/pexels-photo-4253312.jpeg?auto=compress&cs=tinysrgb&w=600",
+      description: "Mais baratos e saudáveis que saquinhos",
+      time: "25 min",
+      ingredients: "6 Ingred."
     }
   ];
 
@@ -102,10 +102,10 @@ const RecipesShowcase: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-8">
           <h2 className="text-xl md:text-3xl font-bold mb-3 leading-tight px-2 text-white">
-            Veja o que você vai receber no livro digital:
+            Veja o que você vai aprender a fazer (gastando pouco!):
           </h2>
           <p className="text-white/90 text-sm md:text-base italic font-light mb-2 px-2">
-            Massas cremosas, vegetarianas, com frutos do mar, carnes e muito mais em um só guia.
+            Receitas que transformam ingredientes simples em pratos de restaurante.
           </p>
         </div>
 
@@ -151,7 +151,7 @@ const RecipesShowcase: React.FC = () => {
               <p className="text-lg font-bold text-red-600">E MUITO MAIS...</p>
               <Sparkles className="text-green-600 animate-pulse" size={18} />
             </div>
-            <p className="text-sm text-gray-700 font-semibold leading-tight">São mais de 101 receitas perfeitas pra quem ama a culinária italiana, mas quer praticidade e sabor autêntico em casa.</p>
+            <p className="text-sm text-gray-700 font-semibold leading-tight">São mais de 105 receitas pensadas para sua rotina: receitas one-pot, molhos caseiros, adaptações brasileiras, massas gratinadas, vegetarianas, com proteína e saladas de massa.</p>
           </div>
         </div>
       </div>
