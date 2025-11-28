@@ -12,27 +12,27 @@ const FAQSection: React.FC = () => {
   const faqItems: FAQItem[] = [
     {
       question: "Pode ser impresso?",
-      answer: "Sim! O livro digital pode ser impresso quantas vezes quiser. Você pode imprimir as receitas que mais gosta ou o livro completo para ter sempre à mão na cozinha."
+      answer: "Sim! O livro digital pode ser impresso quantas vezes quiser. Você pode imprimir as receitas de pizza que mais gosta ou o livro completo para ter sempre à mão na cozinha."
     },
     {
       question: "Como vou receber o acesso?",
-      answer: "Você receberá o acesso completo por e-mail imediatamente após a compra. Basta clicar no link e começar a usar!"
+      answer: "Você receberá o acesso completo por e-mail imediatamente após a compra."
     },
     {
-      question: "Funciona para iniciantes?",
-      answer: "Com certeza! É um guia completo passo a passo com receitas fáceis e deliciosas — até para quem nunca cozinhou! Todas as receitas são simples de seguir com ingredientes acessíveis."
+      question: "Não sei cozinhar nada. Isso é pra mim?",
+      answer: "Com certeza! É um guia completo passo a passo com receitas de pizza fáceis e deliciosas — até para iniciantes completos! Todas as receitas são simples de seguir."
     },
     {
-      question: "Preciso de ingredientes caros?",
-      answer: "Não! Essa é a beleza do e-book. Todas as receitas usam ingredientes simples que você tem em casa ou encontra facilmente no mercado. Temos dicas de substituição inteligente também!"
+      question: "Preciso de ingredientes especiais?",
+      answer: "Não! Todas as receitas de pizza usam ingredientes simples que você já tem em casa ou pode encontrar facilmente em qualquer mercado."
     },
     {
-      question: "Tenho garantia?",
-      answer: "Sim! Teste as receitas por 7 dias. Se você não sentir que economizou e comeu melhor, devolvemos 100% do seu dinheiro. Sem perguntas, sem burocracia."
+      question: "Eu tenho garantia?",
+      answer: "Você tem 30 dias de garantia se não amar nosso produto (o que eu duvido muito 🥰😄)."
     },
     {
-      question: "Quais são os bônus?",
-      answer: "Ao comprar hoje, você recebe: Segredos do Cozimento Perfeito, Guia de Molhos Coringas, e Dicas de Substituição Inteligente - tudo SEM CUSTO EXTRA!"
+      question: "O livro é físico?",
+      answer: "Não, é um livro digital que você pode acessar de onde quiser pelo seu celular, tablet ou computador. Mas se preferir, também pode imprimir as receitas de pizza em casa!"
     }
   ];
 
@@ -41,9 +41,9 @@ const FAQSection: React.FC = () => {
   };
 
   return (
-    <section className="bg-white py-8 md:py-12">
+    <section className="bg-gradient-to-b from-green-100 to-red-50 py-8 md:py-12">
       <div className="container mx-auto px-4">
-        <h2 className="text-lg md:text-2xl font-bold text-center mb-6 text-red-600 px-2">
+        <h2 className="text-lg md:text-2xl font-bold text-center mb-6 bg-gradient-to-r from-red-600 to-orange-600 bg-clip-text text-transparent px-2">
           Perguntas Frequentes
         </h2>
         
@@ -51,7 +51,7 @@ const FAQSection: React.FC = () => {
           {faqItems.map((item, index) => (
             <div 
               key={index}
-              className="bg-white rounded-lg shadow-md mb-3 overflow-hidden border border-gray-200"
+              className="bg-white rounded-lg shadow-md mb-3 overflow-hidden"
             >
               <button
                 onClick={() => toggleItem(index)}
@@ -59,9 +59,9 @@ const FAQSection: React.FC = () => {
               >
                 <span className="font-semibold text-sm md:text-base text-gray-800 pr-2">{item.question}</span>
                 {openItem === index ? (
-                  <ChevronUp className="text-red-600 flex-shrink-0" size={20} />
+                  <ChevronUp className="text-gray-500 flex-shrink-0" size={20} />
                 ) : (
-                  <ChevronDown className="text-red-600 flex-shrink-0" size={20} />
+                  <ChevronDown className="text-gray-500 flex-shrink-0" size={20} />
                 )}
               </button>
               

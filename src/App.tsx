@@ -6,14 +6,13 @@ import WhyEssentialSection from './components/WhyEssentialSection';
 import RecipesShowcase from './components/RecipesShowcase';
 import BonusSection from './components/BonusSection';
 import OffersSection from './components/OffersSection';
-import WhyDifferentSection from './components/WhyDifferentSection';
 import TestimonialsSection from './components/TestimonialsSection';
 import FAQSection from './components/FAQSection';
 import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-gradient-to-b from-red-50 via-green-50 to-red-100">
       <TopBanner />
       <HeroSection />
       <BenefitsSection />
@@ -21,7 +20,6 @@ function App() {
       <RecipesShowcase />
       <BonusSection />
       <OffersSection />
-      <WhyDifferentSection />
       <TestimonialsSection />
       <FAQSection />
       <Footer />
